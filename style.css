@@ -1,0 +1,127 @@
+
+/* Ostrich Sans */
+
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: local('☺'), url('fonts/ostrich-sans-black.woff') format('woff'), url('ostrich-sans-black.ttf') format('truetype'), url('ostrich-sans-black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: local('☺'), url('fonts/ostrich-sans-bold.woff') format('woff'), url('ostrich-sans-bold.ttf') format('truetype'), url('ostrich-sans-bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: local('☺'), url('fonts/ostrich-sans-regular.woff') format('woff'), url('ostrich-sans-regular.ttf') format('truetype'), url('ostrich-sans-regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: local('☺'), url('fonts/ostrich-sans-light.woff') format('woff'), url('ostrich-sans-light.ttf') format('truetype'), url('ostrich-sans-light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+/* Ostrich Sans Dashed */
+
+@font-face {
+	font-family: 'Ostrich Sans Dashed';
+	src: local('☺'), url('fonts/ostrich-sans-dashed.woff') format('woff'), url('ostrich-sans-dashed.ttf') format('truetype'), url('ostrich-sans-dashed.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* Ostrich Sans Rounded */
+
+@font-face {
+	font-family: "Ostrich Sans Rounded";
+	src: local('☺'), url('fonts/ostrich-sans-rounded.woff') format('woff'), url('ostrich-sans-rounded.ttf') format('truetype'), url('ostrich-sans-rounded.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* Ostrich Sans Inline */
+
+@font-face {
+	font-family: "Ostrich Sans Inline";
+	src: url('fonts/ostrich-sans-inline-regular.woff') format('woff');
+}
+
+
+.bigtitle {
+	font-family: 'Ostrich Sans', Serif;
+	font-size: 70px;
+	color: black;
+	border-color: black;
+	border-width: 2px;
+	font-weight: 600;
+	text-align: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.medtitle {
+	font-family: 'Ostrich Sans', Serif;
+	font-size: 70px;
+	color: black;
+	border-color: black;
+	border-width: 2px;
+	font-weight: 400;
+	text-align: center;
+	justify-content: center;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.containerpics{
+	display: flex;
+	justify-content: space-between;
+}
+
+.appetizers{
+	font-family: Helvetica;
+	font-size: 20px;
+	color: white;
+	border-color: black;
+	border-width: 5px;
+	padding-right: 20px;
+	text-transform: uppercase;
+	text-overflow: wrap;
+	margin: 60px;
+}
+.maincourses {
+	font-family: Helvetica;
+	font-size: 20px;
+	color: white;
+	border-color: black;
+	border-width: 5px;
+	padding-right: 20px;
+	text-transform: uppercase;
+	text-overflow: wrap;
+	margin: 60px;
+}
+
+.bodybackground{
+	background-color: #808080;
+
+}
+
+.pics{
+	width:34%;
+}
+
+.picstwo{
+	width: 32%;
+}
+
+.picsthree{
+	width: 29%;
+}
